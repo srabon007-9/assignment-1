@@ -29,6 +29,14 @@ nav button{
     padding: 17px 24px;
 }
 
+.section-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
 /* Banner style */
 .banner{
     background-image: url('/assets/Hero-bg.png');
@@ -68,7 +76,16 @@ nav button{
     justify-content: center;
     align-items: center;
     gap: 45px;
+    border-radius: 12px;
 }
-.why-web-dev section{
+.inner-div{
+    display: flex;
+    padding: 48px;
     background-color: white;
+}
+.inner-div section{
+    width: 50%;
+}
+.section-flex > button{
+    background-color: transparent;
 }

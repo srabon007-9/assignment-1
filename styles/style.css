@@ -96,6 +96,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* Why web development section */
@@ -140,6 +141,48 @@ main{
     border-radius: 5px;
 }
 /* Targets style */
+.targets{
+    width: 70vw;
+}
+.targets > .container{
+    display: flex;
+    gap: 5px;
+    
+}
+.targets > h1, .targets > p, .targets > .container{
+    margin: 45px 10px;
+}
+.skill{
+    padding: 15px;
+
+}
+
+.skill-1{
+    background-color: rgba(255, 76, 30, 0.05);
+  
+}
+
+.skill-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.skill-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.btn{
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.skill > img, .skill > h3, .skill > p, .skill > button{
+    margin: 5px;
+}
+
 
 /* Need support styles */
 .need-support{

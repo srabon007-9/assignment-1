@@ -89,3 +89,22 @@ nav button{
 .section-flex > button{
     background-color: transparent;
 }
+/* Inspiration section */
+.inspiration{
+    background-color: transparent;
+    padding: 80px;
+    margin: 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    border-radius: 12px;
+}
+
+.inspiration > iframe{
+    padding: 23px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+

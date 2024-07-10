@@ -32,6 +32,11 @@ nav button{
 .btn-primary{
     padding: 17px 24px;
 }
+.btn-primary > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .section-flex{
     display: flex;
@@ -160,4 +165,14 @@ main{
     padding: 10px 20px;
     margin: 5px;
     border-radius: 8px;
+}
+
+/* Footer section */
+#footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    background-color: beige;
+    padding: 12px 53px;
+    align-items: center;
 }

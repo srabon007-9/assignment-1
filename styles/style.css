@@ -147,13 +147,14 @@ main{
 .targets > .container{
     display: flex;
     gap: 5px;
-    
+
 }
 .targets > h1, .targets > p, .targets > .container{
     margin: 45px 10px;
 }
 .skill{
     padding: 15px;
+    border-radius: 12px;
 
 }
 

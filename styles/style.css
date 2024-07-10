@@ -172,7 +172,7 @@ main{
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    background-color: beige;
-    padding: 12px 53px;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 12px 83px;
     align-items: center;
 }

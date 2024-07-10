@@ -48,7 +48,7 @@ nav button{
 
 /* Banner style */
 .banner{
-    background-image: url('/Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
     height: 650px;
     margin-top: 36px;
     margin-bottom: 74px;
@@ -134,7 +134,7 @@ main{
 }
 .blur{
     position: absolute;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('./assets/handshake.jpg');
     background-size: cover;
     z-index: -1;
     width: 65vw;
